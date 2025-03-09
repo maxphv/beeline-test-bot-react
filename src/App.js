@@ -63,6 +63,10 @@ function App() {
      <br/>
      заданные localStorage: {dataLocalStorage}
      <br/>
+     <button onClick={() => window.location.replace("https://www.google.com/")}>Редирект реплейс</button>
+     <button onClick={() => window.location.href = "https://www.google.com/"}>Редирект href</button>
+     <button onClick={() => window.open("https://www.google.com/","_self")}>Редирект через open self</button>
+     <button onClick={() => window.open("https://www.google.com/","_blank")}>Редирект через open blank</button>
      {/* <div className='info'>
        tg = {JSON.stringify(tg)}
      </div> */}
