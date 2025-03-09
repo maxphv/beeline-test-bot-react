@@ -52,8 +52,8 @@ function App() {
 
   return (
     <div className="App">
-     {/* Приложение
-     window.location.href = {window.location.href} */}
+     Приложение
+     window.location.href = {window.location.href}
      <button onClick={onClose}>Закрыть</button>
      <button onClick={setData}>Задать данные</button>
      Заданные куки: {dataCookies}
@@ -62,9 +62,9 @@ function App() {
      <br/>
      заданные localStorage: {dataLocalStorage}
      <br/>
-     {/* <div className='info'>
+     <div className='info'>
        tg = {JSON.stringify(tg)}
-     </div> */}
+     </div>
     </div>
   );
 }
